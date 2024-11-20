@@ -1,10 +1,32 @@
+/* primary-color */
+body{
+    margin: 20px 20%;
+    width: 1149px;
+}
+.prmry-clr{
+    color: rgb(255, 84, 0);
+}
+
 .web-head{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
+.web-head h1{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+.web-head img{
+    height:60px;
+    width: 60px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
     display: flex;
@@ -12,8 +34,209 @@
     align-items: center;
     gap: 50px;
     list-style: none;
-
     
+}
+.nav-title .gray-clr{
+    color: rgb(66, 66, 71);
+}
+.nav-title li{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;  
 }
 
 
+/* Popular tour  */
+
+.popular-tours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-tours-text{
+    width: 100vw;
+}
+.popular-tours-img{
+    width: 30vw;
+    text-align: left;
+}
+
+.popular-tours-text p{
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 10%;
+    line-height: 26px;
+}
+.popular-tours-text h1{
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tours-text li{
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 15%;
+    line-height: 26px;
+}
+
+/* destination part  */
+/* .location{
+    width: 1750px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} */
+ .location{
+    gap: 20px;
+ }
+.maldives{
+    background-image: url(Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:573px ;
+    justify-content: center;
+}
+.maldives span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.indonesia{
+    background-image: url(Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:560px ;
+    justify-content: center;
+}
+.indonesia span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.srilanka{
+    background-image: url(Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:374px ;
+    justify-content: center;
+}
+.srilanka span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.north-america{
+    background-image: url(Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:474px ;
+    justify-content: center;
+}
+.north-america span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.kashmir{
+    background-image: url(Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:274px ;
+    justify-content: center;
+}
+.kashmir span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.bangladesh{
+    background-image: url(Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:473px ;
+    justify-content: center;
+}
+.bangladesh span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.bandarban{
+    background-image: url(Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width:660px ;
+    justify-content: center;
+}
+.bandarban span{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.maldives-indonesia{
+    display: flex;
+    gap: 10px;
+}
+.srilanka-na-ka{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.bangladesh-bandarban{
+    display: flex;
+    gap: 10px;
+}
