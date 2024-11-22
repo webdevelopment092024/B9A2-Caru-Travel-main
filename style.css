@@ -2,10 +2,116 @@
 body{
     margin-left: 155.5px;
     margin-right: 155.5px;
-    width: 1440px;
+    width: cover;
 }
 .prmry-clr{
     color: rgb(255, 84, 0);
+}
+
+.explore-section{
+    margin-bottom: 100px;
+}
+
+.explore-title{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 206px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.explore-text{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 24vw;
+    margin-right: 24vw;
+    margin-bottom: 0px;
+}
+.explore-travel-whole{
+    background-image:linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    border-radius: 16px;
+
+}
+
+.travel-explore{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    justify-content: space-between;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 48px;
+}
+.where{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 16px;
+}
+.form-select{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 16px;
+}
+.type{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 16px;
+}
+.form-select, .type, .where, .find-now{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 174px;
+    height: 52px;
+}
+.find-now>button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    
 }
 /* General css */
 .prmry-btn{
